@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(133, 97, 206, 0.758);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    background: #4e07dbe8;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.controls button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start {
+    background-color: #77d124;
+    color: black;
+}
+
+#pause {
+    background-color: #e70f24;
+    color: black;
+}
+
+#reset {
+    background-color: cyan;
+    color: black;
+
+}
+
+#lap {
+    background-color: #d2d81b;
+    color: black;
+}
+
+#laps {
+    margin-top: 20px;
+   
+    
+}
+
+#lapList {
+    list-style-type: none;
+    padding: 0;
+    color: rgb(23, 29, 29);
+}
+
+#lapList li {
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
